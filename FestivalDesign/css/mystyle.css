@@ -1,0 +1,304 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.my-module {
+	/* ... */
+}
+.mt-0 {
+    margin-top: 5px !important;
+}
+
+.ml-1 {
+    margin-left: 10px !important;
+}
+
+.hr1 {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+   
+
+
+}
+
+.header {
+    color: #8C0A98;
+}
+
+h4 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 8em;
+
+}
+
+.text-header {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2.5em;
+
+}
+
+.text-header2 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2.5em;
+    color: black;
+
+}
+
+.black {
+    color: black;
+}
+
+.header2 {
+    color: white;
+}
+
+.sub-heading {
+    color: #8C0A98;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.container1-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+/* header button & border*/
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 5px solid white;*/
+
+}
+
+.btncolor {
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 1.5em;
+
+
+
+}
+.border1 {
+ 
+  padding: 10px;
+  background: linear-gradient(to right, rgba(95,170,183,0.5), rgba(201,76,194,0.5));
+  
+}
+.border2 {
+ 
+  padding: 10PX;
+  background: linear-gradient(to right, rgba(180,125,95,0.5), rgba(100,145,176,0.5));
+  
+}
+
+
+
+/*CARDS*/
+.card-lineup {
+    font-family:'Roboto', sans-serif;
+    color: #8C0A98;
+}
+
+.card-title: {
+    color:  #8C0A98;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1B1339;
+}
+
+.bgcolor {
+    background-color: #D7D4D4;
+    color: #1B1339;
+}
+
+.btn-outline {
+    border: 2px solid #1B1339;
+    color: #1B1339;
+}
+
+/*Outline of button*/
+
+.button:hover {
+    background-color: #1B1339;
+    /* purple */
+    color: white;
+}
+
+.bgcolor2 {
+    background-color: #1B1339;
+}
+/*GREY AREA*/
+.moveme1{
+    margin-top: 19%;
+}
+
+/*FORM*/
+.button1:hover {
+    background-color: white;
+    color: #1B1339;
+}
+
+.btn-outline1 {
+    border: 2px solid #ffff;
+    color: #ffff;
+}
+.moveme{
+    margin-top:40px;
+}
+
+.moveme3{
+    margin-bottom:40px ;
+}
+
+.moveside{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.movesideleft{margin-left:20px}
+.movesideright{margin-right:20px;}
+.moveme4{
+    margin-bottom:10px;
+}
+
+.connect{ padding-top:20px;
+         padding-bottom:5px;
+}
+.footer{padding-bottom:5px}
+    
+
+.margin-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.image {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+
+.h3 {
+    position: absolute;
+
+}
+
+.grey{
+    
+    background-color:#D7D4D4;
+}
+
+/*links*/
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #8C0A98;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/*Social Icons*/
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 5px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  background-color:#1B1339;
+    color:white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+    border-radius:100%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+    border-radius:100%;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+    border-radius:100%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+    border-radius:50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+h4 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 1.5em;
+
+}
+    
+    .text-header {
+    font-family: 'Bowlby One SC', cursive;
+        font-size: 0.7em;}
+        
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.btncolor {
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 0.7em;
+
+
+
+}
+.border1 {
+ 
+
+  background: linear-gradient(to right, rgba(95,170,183,0.5), rgba(201,76,194,0.5));
+  
+}
+
+ 
